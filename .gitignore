@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual environments
+venv/
+env/
+.env
+
+# GCP credentials
+*.json
+service_account*.json
+application_default_credentials.json
+
+# Data files (stored in GCP, not in GitHub)
+data/raw/*
+data/processed/*
+data/annotated/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/annotated/.gitkeep
+
+# Models (stored in GCP, not in GitHub)
+models/*
+!models/.gitkeep
+
+# Environment variables
+.env
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
