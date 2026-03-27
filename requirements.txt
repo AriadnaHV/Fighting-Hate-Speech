@@ -129,6 +129,7 @@ protobuf==6.33.6
 psutil==7.2.2
 ptyprocess==0.7.0
 pure_eval==0.2.3
+py4j==0.10.9.9
 pyarrow==23.0.1
 pyasn1==0.6.3
 pyasn1_modules==0.4.2
@@ -137,6 +138,7 @@ pydantic==2.12.5
 pydantic_core==2.41.5
 pydub==0.25.1
 Pygments==2.19.2
+pyspark==4.1.1
 python-dateutil==2.9.0.post0
 python-dotenv==1.2.2
 python-json-logger==4.0.0
