@@ -22,6 +22,13 @@ designed as a support tool for NGOs and human rights organizations.
 
 ## Setup
 *(to be completed)*
+### GCP VM Setup (for XLM-RoBERTa training)
+PyTorch must be installed separately before the VM requirements:
+```bash
+pip3 install torch==2.6.0+cu124 --index-url https://download.pytorch.org/whl/cu124
+pip3 install -r requirements_vm.txt
+```
+
 
 ## Results
 *(to be completed)*
