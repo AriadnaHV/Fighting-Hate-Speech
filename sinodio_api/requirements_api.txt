@@ -1,0 +1,9 @@
+# SinOdio API — requirements_api.txt
+# Note: torch is installed separately in the Dockerfile (CPU-only build)
+fastapi==0.115.6
+uvicorn[standard]==0.29.0
+pydantic==2.10.0
+transformers==4.47.0
+google-cloud-storage==2.16.0
+sentencepiece==0.2.0
+protobuf==4.25.3
