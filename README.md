@@ -7,15 +7,14 @@
 
 ## Description
 
-Automatic hate speech classifier for Spanish, with a planned extension to French,
-developed as the final project of the KeepCoding Big Data, Artificial Intelligence 
-& Machine Learning Bootcamp, 16th Edition. Built using XLM-RoBERTa
+Automatic hate speech classifier for Spanish, with a planned extension to French
+in the next phase, developed as the final project of the *KeepCoding Big Data, 
+Artificial Intelligence & Machine Learning Bootcamp, 16th Edition*. Built using XLM-RoBERTa
 with transfer learning, designed as a support tool for NGOs and human rights
-organizations working with Spanish and French social media content. Currently
-only implemented in Spanish, but to be extended to French in the next phase.
+organizations working with Spanish and French social media content.
 
-The project is structured in four incremental phases. Phase 1 — a binary hate
-speech classifier for Spanish — is complete and deployed as a live REST API.
+The project is structured in four incremental phases. Phase 1 (binary hate
+speech classifier for Spanish) is complete and deployed as a live REST API.
 
 ---
 
@@ -161,14 +160,14 @@ gcloud run deploy sinodio-api \
 
 ## 📚 Datasets
 
-| Dataset | Language | Examples | Source |
-|---------|----------|----------|--------|
-| Spanish Hate Speech Superset | ES | 29,855 | Twitter |
-| DETOXIS | ES | 3,463 | News comments |
-| HAHA | ES | 24,000 | Humor / social media |
-| CONAN | FR | TBD | NGO-validated (Phase 2) |
-| OLID-FR | FR | TBD | Twitter (Phase 2) |
-| Corpus propio | ES | 200-400 | News scraping (Phase 3) |
+| Status | Dataset | Language | Examples | Source |
+|--------|---------|----------|----------|--------|
+| ✅ | Spanish Hate Speech Superset | ES | 29,855 | Twitter |
+| ✅ | DETOXIS | ES | 3,463 | News comments |
+| ✅ | HAHA | ES | 24,000 | Humor / social media |
+| 🔄 | CONAN | FR | TBD | NGO-validated (Phases 2 & 4) |
+| 🔄 | OLID-FR | FR | TBD | Twitter (Phase 2) |
+| 🔄 | Corpus propio | ES | 200-400 | News scraping (Phase 3) |
 
 ---
 
