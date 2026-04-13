@@ -1,5 +1,5 @@
 # SinOdio / SansHaine
-### Automatic Hate Speech Detection in Spanish and French
+### Automatic Hate Speech Detection in Spanish (to be extended to French)
 
 [![Phase 1](https://img.shields.io/badge/Phase%201-Complete-green)]()
 [![Model](https://img.shields.io/badge/Model-XLM--RoBERTa-blue)]()
@@ -7,10 +7,12 @@
 
 ## Description
 
-Multilingual hate speech classifier targeting vulnerable groups including women,
-immigrants, regional minorities and LGBTQ+ communities. Built using XLM-RoBERTa
+Automatic hate speech classifier for Spanish, with a planned extension to French,
+developed as the final project of the KeepCoding Big Data, Artificial Intelligence 
+& Machine Learning Bootcamp, 16th Edition. Built using XLM-RoBERTa
 with transfer learning, designed as a support tool for NGOs and human rights
-organizations working with Spanish and French social media content.
+organizations working with Spanish and French social media content. Currently
+only implemented in Spanish, but to be extended to French in the next phase.
 
 The project is structured in four incremental phases. Phase 1 — a binary hate
 speech classifier for Spanish — is complete and deployed as a live REST API.
