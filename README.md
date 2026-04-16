@@ -94,7 +94,9 @@ Fighting-Hate-Speech/
 │   └── utils.py         # shared utility functions (seed, preprocessing)
 │
 ├── models/              # trained models (stored in GCS)
-├── reports/             # technical report ("memoria")│
+│
+├── reports/             # technical report ("memoria"), PowerBI dashboards and presentation slides
+│
 ├── requirements.txt     # local development environment
 └── requirements_vm.txt  # GCP VM training environment
 ```
