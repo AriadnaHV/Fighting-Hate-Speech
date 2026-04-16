@@ -1,9 +1,10 @@
 # SinOdio / SansHaine
-### Automatic Hate Speech Detection in Spanish (to be extended to French)
+### Automatic Hate Speech Detection in Spanish (architecture ready for extension to French)
 
 [![Phase 1](https://img.shields.io/badge/Phase%201-Complete-green)]()
 [![Model](https://img.shields.io/badge/Model-XLM--RoBERTa-blue)]()
 [![API](https://img.shields.io/badge/API-Live%20on%20Cloud%20Run-brightgreen)]()
+[![Bootcamp](https://img.shields.io/badge/KeepCoding-XVI%20Edición-orange)]()
 
 ## Description
 
@@ -11,10 +12,12 @@ Automatic hate speech classifier for Spanish, with a planned extension to French
 in the next phase, developed as the final project of the *KeepCoding Big Data, 
 Artificial Intelligence & Machine Learning Bootcamp, 16th Edition*. Built using XLM-RoBERTa
 with transfer learning, designed as a support tool for NGOs and human rights
-organizations working with Spanish and French social media content.
+organizations working with Spanish social media content.
 
 The project is structured in four incremental phases. Phase 1 (binary hate
 speech classifier for Spanish) is complete and deployed as a live REST API.
+The multilingual architecture (XLM-RoBERTa, pretrained on 100 languages) was
+chosen deliberately to enable extension to French in Phase 2 without architectural changes.
 
 ---
 
@@ -91,7 +94,7 @@ Fighting-Hate-Speech/
 │   └── utils.py         # shared utility functions (seed, preprocessing)
 │
 ├── models/              # trained models (stored in GCS)
-├── reports/             # PowerBI dashboards and visualizations
+├── reports/             # technical report ("memoria")│
 ├── requirements.txt     # local development environment
 └── requirements_vm.txt  # GCP VM training environment
 ```
@@ -174,10 +177,5 @@ gcloud run deploy sinodio-api \
 ## 🎓 Context
 
 Final project for the **KeepCoding Bootcamp | Big Data, Inteligencia Artificial & Machine Learning | Edición XVI**
-at [KeepCoding](https://keepcoding.io). Developed individually.
+at [KeepCoding](https://keepcoding.io). Developed individually by Ariane Heinz Vallribera.
 
----
-
-## 📄 License
-
-*(to be completed)*
